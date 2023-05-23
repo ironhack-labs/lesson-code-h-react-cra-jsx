@@ -24,9 +24,8 @@ const divElement = <div id={theId}></div>;
 function App() {
   return (
     <div className="App">
-      
       {heading}
-      
+
       <h3>
         {/* You can turn this to {firstName} {lastName} */}
         Hi, {student.firstName} {student.lastName}
@@ -47,15 +46,12 @@ function App() {
 
       <br />
       <hr />
-      
+
       <label htmlFor="username" className="control-label">
         Username
       </label>
 
-        <div>
-        {/* some comment here */}
-        
-      </div>
+      <div>{/* some comment here */}</div>
     </div>
   );
 }
